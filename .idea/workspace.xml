@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ddc02c5-3c77-4e0b-884e-7d7a2f33aa14" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="JAVA/AbstractFactory" pinned="false" current-in-tab="true">
+              <entry file="uml://JAVA/AbstractFactory">
+                <provider selected="true" editor-type-id="UmlEditorProvider">
+                  <state>
+                    <ID>JAVA</ID>
+                    <OriginalElement>AbstractFactory</OriginalElement>
+                    <nodes>
+                      <node x="237.5" y="0.0">AbstractFactory.Slot</node>
+                      <node x="0.0" y="388.0">AbstractFactory.ProgressiveSlot</node>
+                      <node x="0.0" y="849.0">AbstractFactory.LCD</node>
+                      <node x="117.0" y="507.0">AbstractFactory.SlotComponentFactory</node>
+                      <node x="493.0" y="630.0">AbstractFactory.NVSlotFactory</node>
+                      <node x="712.0" y="630.0">AbstractFactory.NJSlotFactory</node>
+                      <node x="602.0" y="507.0">AbstractFactory.SlotFactory</node>
+                      <node x="0.0" y="630.0">AbstractFactory.NJSlotComponentFactory</node>
+                      <node x="806.0" y="748.0">AbstractFactory.SlotMachineApp</node>
+                      <node x="189.0" y="849.0">AbstractFactory.Reels</node>
+                      <node x="403.0" y="849.0">AbstractFactory.largeCabinet</node>
+                      <node x="256.0" y="945.0">AbstractFactory.WSSlotFactory</node>
+                      <node x="592.0" y="849.0">AbstractFactory.smallCabinet</node>
+                      <node x="497.5" y="748.0">AbstractFactory.Cabinet</node>
+                      <node x="234.0" y="630.0">AbstractFactory.NVSlotComponentFactory</node>
+                      <node x="0.0" y="945.0">AbstractFactory.WSSlotComponentFactory</node>
+                      <node x="94.5" y="748.0">AbstractFactory.Display</node>
+                      <node x="350.0" y="388.0">AbstractFactory.BonusSlot</node>
+                    </nodes>
+                    <notes />
+                    <edges>
+                      <edge source="AbstractFactory.largeCabinet" target="AbstractFactory.Cabinet">
+                        <point x="0.0" y="-25.5" />
+                        <point x="487.5" y="824.0" />
+                        <point x="539.75" y="824.0" />
+                        <point x="-42.25" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.BonusSlot" target="AbstractFactory.Slot">
+                        <point x="0.0" y="-37.0" />
+                        <point x="515.0" y="363.0" />
+                        <point x="391.25" y="363.0" />
+                        <point x="51.25" y="169.0" />
+                      </edge>
+                      <edge source="AbstractFactory.Reels" target="AbstractFactory.Display">
+                        <point x="0.0" y="-25.5" />
+                        <point x="273.5" y="824.0" />
+                        <point x="221.25" y="824.0" />
+                        <point x="42.25" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.LCD" target="AbstractFactory.Display">
+                        <point x="0.0" y="-25.5" />
+                        <point x="84.5" y="824.0" />
+                        <point x="136.75" y="824.0" />
+                        <point x="-42.25" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.NJSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+                        <point x="0.0" y="-36.5" />
+                        <point x="107.0" y="605.0" />
+                        <point x="170.5" y="605.0" />
+                        <point x="-53.5" y="36.5" />
+                      </edge>
+                      <edge source="AbstractFactory.ProgressiveSlot" target="AbstractFactory.Slot">
+                        <point x="0.0" y="-37.0" />
+                        <point x="165.0" y="363.0" />
+                        <point x="288.75" y="363.0" />
+                        <point x="-51.25" y="169.0" />
+                      </edge>
+                      <edge source="AbstractFactory.NVSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+                        <point x="0.0" y="-36.5" />
+                        <point x="341.0" y="605.0" />
+                        <point x="277.5" y="605.0" />
+                        <point x="53.5" y="36.5" />
+                      </edge>
+                      <edge source="AbstractFactory.NJSlotFactory" target="AbstractFactory.SlotFactory">
+                        <point x="0.0" y="-25.5" />
+                        <point x="811.5" y="605.0" />
+                        <point x="752.0" y="605.0" />
+                        <point x="50.0" y="36.5" />
+                      </edge>
+                      <edge source="AbstractFactory.NVSlotFactory" target="AbstractFactory.SlotFactory">
+                        <point x="0.0" y="-25.5" />
+                        <point x="592.5" y="605.0" />
+                        <point x="652.0" y="605.0" />
+                        <point x="-50.0" y="36.5" />
+                      </edge>
+                      <edge source="AbstractFactory.smallCabinet" target="AbstractFactory.Cabinet">
+                        <point x="0.0" y="-25.5" />
+                        <point x="676.5" y="824.0" />
+                        <point x="624.25" y="824.0" />
+                        <point x="42.25" y="25.5" />
+                      </edge>
+                    </edges>
+                    <settings layout="Hierarchic Group" zoom="0.8991172761664565" x="425.4333800841514" y="487.7300140252454" />
+                    <SelectedNodes />
+                    <Categories>
+                      <Category>Fields</Category>
+                      <Category>Methods</Category>
+                    </Categories>
+                    <SCOPE>All</SCOPE>
+                    <VISIBILITY>private</VISIBILITY>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NJSlotFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NJSlotComponentFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotComponentFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlotMachineApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/SlotMachineApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WSSlotFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Slot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Slot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cabinet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Cabinet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Display.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AbstractFactory/BonusSlot.java" />
+        <option value="$PROJECT_DIR$/src/SingletonFactory/Bar.java" />
+        <option value="$PROJECT_DIR$/src/LectLogger/Logger.java" />
+        <option value="$PROJECT_DIR$/src/LectAbstractFactory/BlackOlives.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="14" />
+    <option name="y" value="30" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LAB4-abstractFactory-abstractFactorySingleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB4-abstractFactory-abstractFactorySingleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB4-abstractFactory-abstractFactorySingleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/LectAbstractFactory" />
+      <recent name="$PROJECT_DIR$/src/LectLogger" />
+      <recent name="$PROJECT_DIR$/src/SingletonFactory" />
+      <recent name="$PROJECT_DIR$/src/AbstractFactory" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ddc02c5-3c77-4e0b-884e-7d7a2f33aa14" name="Default" comment="" />
+      <created>1517404972214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517404972214</updated>
+      <workItem from="1517404978164" duration="1305000" />
+      <workItem from="1517445974254" duration="29000" />
+      <workItem from="1517457820371" duration="254000" />
+      <workItem from="1517473954651" duration="670000" />
+      <workItem from="1517853867811" duration="3630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5888000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="14" y="30" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BonusSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonFactory/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LectLogger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LectAbstractFactory/BlackOlives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BonusSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonFactory/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LectAbstractFactory/BlackOlives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LectLogger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BonusSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonFactory/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LectAbstractFactory/BlackOlives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LectLogger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BonusSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonFactory/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LectLogger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LectAbstractFactory/BlackOlives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/LectAbstractFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>LectAbstractFactory</OriginalElement>
+          <nodes>
+            <node x="0.0" y="747.0">LectAbstractFactory.Spinach</node>
+            <node x="756.0" y="747.0">LectAbstractFactory.Onion</node>
+            <node x="403.0" y="1141.0">LectAbstractFactory.MarinaraSauce</node>
+            <node x="94.5" y="1040.0">LectAbstractFactory.Dough</node>
+            <node x="0.0" y="211.0">LectAbstractFactory.ChicagoPizzaIngredientFactory</node>
+            <node x="0.0" y="944.0">LectAbstractFactory.MozzarellaCheese</node>
+            <node x="0.0" y="1141.0">LectAbstractFactory.ThinCrustDough</node>
+            <node x="189.0" y="944.0">LectAbstractFactory.ReggianoCheese</node>
+            <node x="132.0" y="0.0">LectAbstractFactory.PizzaIngredientFactory</node>
+            <node x="189.0" y="747.0">LectAbstractFactory.Eggplant</node>
+            <node x="567.0" y="747.0">LectAbstractFactory.RedPepper</node>
+            <node x="553.0" y="233.0">LectAbstractFactory.CheesePizza</node>
+            <node x="264.0" y="211.0">LectAbstractFactory.NYPizzaIngredientFactory</node>
+            <node x="497.5" y="1040.0">LectAbstractFactory.Sauce</node>
+            <node x="806.0" y="1040.0">LectAbstractFactory.Pepperoni</node>
+            <node x="903.0" y="233.0">LectAbstractFactory.VeggiePizza</node>
+            <node x="567.0" y="636.0">LectAbstractFactory.Veggies</node>
+            <node x="189.0" y="1141.0">LectAbstractFactory.ThickCrustDough</node>
+            <node x="1078.0" y="233.0">LectAbstractFactory.PepperoniPizza</node>
+            <node x="592.0" y="944.0">LectAbstractFactory.FrozenClams</node>
+            <node x="686.5" y="843.0">LectAbstractFactory.Clams</node>
+            <node x="945.0" y="747.0">LectAbstractFactory.Mushroom</node>
+            <node x="592.0" y="1141.0">LectAbstractFactory.PlumTomatoSauce</node>
+            <node x="806.0" y="1141.0">LectAbstractFactory.SlicedPepperoni</node>
+            <node x="120.5" y="417.0">LectAbstractFactory.PizzaStore</node>
+            <node x="378.0" y="747.0">LectAbstractFactory.BlackOlives</node>
+            <node x="0.0" y="540.0">LectAbstractFactory.ChicagoPizzaStore</node>
+            <node x="728.0" y="233.0">LectAbstractFactory.ClamPizza</node>
+            <node x="378.0" y="944.0">LectAbstractFactory.ParmesanCheese</node>
+            <node x="781.0" y="944.0">LectAbstractFactory.FreshClams</node>
+            <node x="189.0" y="843.0">LectAbstractFactory.Cheese</node>
+            <node x="1134.0" y="747.0">LectAbstractFactory.Garlic</node>
+            <node x="793.5" y="0.0">LectAbstractFactory.Pizza</node>
+            <node x="241.0" y="540.0">LectAbstractFactory.NYPizzaStore</node>
+            <node x="1020.0" y="1040.0">LectAbstractFactory.PizzaTestDrive</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="LectAbstractFactory.Eggplant" target="LectAbstractFactory.Veggies">
+              <point x="0.0" y="-25.5" />
+              <point x="273.5" y="717.0" />
+              <point x="603.2142857142858" y="717.0" />
+              <point x="-48.28571428571422" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.PlumTomatoSauce" target="LectAbstractFactory.Sauce">
+              <point x="0.0" y="-25.5" />
+              <point x="676.5" y="1116.0" />
+              <point x="624.25" y="1116.0" />
+              <point x="42.25" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.BlackOlives" target="LectAbstractFactory.Veggies">
+              <point x="0.0" y="-25.5" />
+              <point x="462.5" y="727.0" />
+              <point x="627.3571428571429" y="727.0" />
+              <point x="-24.14285714285711" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.Mushroom" target="LectAbstractFactory.Veggies">
+              <point x="0.0" y="-25.5" />
+              <point x="1029.5" y="717.0" />
+              <point x="699.7857142857143" y="717.0" />
+              <point x="48.285714285714334" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.Garlic" target="LectAbstractFactory.Veggies">
+              <point x="0.0" y="-25.5" />
+              <point x="1218.5" y="707.0" />
+              <point x="723.9285714285714" y="707.0" />
+              <point x="72.42857142857144" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.ParmesanCheese" target="LectAbstractFactory.Cheese">
+              <point x="0.0" y="-25.5" />
+              <point x="462.5" y="919.0" />
+              <point x="329.83333333333337" y="919.0" />
+              <point x="56.33333333333337" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.FrozenClams" target="LectAbstractFactory.Clams">
+              <point x="0.0" y="-25.5" />
+              <point x="676.5" y="919.0" />
+              <point x="728.75" y="919.0" />
+              <point x="-42.25" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.MarinaraSauce" target="LectAbstractFactory.Sauce">
+              <point x="0.0" y="-25.5" />
+              <point x="487.5" y="1116.0" />
+              <point x="539.75" y="1116.0" />
+              <point x="-42.25" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.FreshClams" target="LectAbstractFactory.Clams">
+              <point x="0.0" y="-25.5" />
+              <point x="865.5" y="919.0" />
+              <point x="813.25" y="919.0" />
+              <point x="42.25" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.NYPizzaStore" target="LectAbstractFactory.PizzaStore">
+              <point x="0.0" y="-25.5" />
+              <point x="351.5" y="515.0" />
+              <point x="286.25" y="515.0" />
+              <point x="55.25" y="36.5" />
+            </edge>
+            <edge source="LectAbstractFactory.Onion" target="LectAbstractFactory.Veggies">
+              <point x="0.0" y="-25.5" />
+              <point x="840.5" y="727.0" />
+              <point x="675.6428571428572" y="727.0" />
+              <point x="24.142857142857224" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.RedPepper" target="LectAbstractFactory.Veggies">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.SlicedPepperoni" target="LectAbstractFactory.Pepperoni">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.ReggianoCheese" target="LectAbstractFactory.Cheese">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.ChicagoPizzaStore" target="LectAbstractFactory.PizzaStore">
+              <point x="0.0" y="-25.5" />
+              <point x="110.5" y="515.0" />
+              <point x="175.75" y="515.0" />
+              <point x="-55.25" y="36.5" />
+            </edge>
+            <edge source="LectAbstractFactory.CheesePizza" target="LectAbstractFactory.Pizza">
+              <point x="0.0" y="-25.5" />
+              <point x="630.5" y="203.0" />
+              <point x="818.375" y="203.0" />
+              <point x="-74.625" y="91.5" />
+            </edge>
+            <edge source="LectAbstractFactory.NYPizzaIngredientFactory" target="LectAbstractFactory.PizzaIngredientFactory">
+              <point x="0.0" y="-80.5" />
+              <point x="386.0" y="186.0" />
+              <point x="315.0" y="186.0" />
+              <point x="61.0" y="80.5" />
+            </edge>
+            <edge source="LectAbstractFactory.PepperoniPizza" target="LectAbstractFactory.Pizza">
+              <point x="0.0" y="-25.5" />
+              <point x="1155.5" y="203.0" />
+              <point x="967.625" y="203.0" />
+              <point x="74.625" y="91.5" />
+            </edge>
+            <edge source="LectAbstractFactory.VeggiePizza" target="LectAbstractFactory.Pizza">
+              <point x="0.0" y="-25.5" />
+              <point x="980.5" y="213.0" />
+              <point x="917.875" y="213.0" />
+              <point x="24.875" y="91.5" />
+            </edge>
+            <edge source="LectAbstractFactory.ThickCrustDough" target="LectAbstractFactory.Dough">
+              <point x="0.0" y="-25.5" />
+              <point x="273.5" y="1116.0" />
+              <point x="221.25" y="1116.0" />
+              <point x="42.25" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.Spinach" target="LectAbstractFactory.Veggies">
+              <point x="0.0" y="-25.5" />
+              <point x="84.5" y="707.0" />
+              <point x="579.0714285714286" y="707.0" />
+              <point x="-72.42857142857144" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.ChicagoPizzaIngredientFactory" target="LectAbstractFactory.PizzaIngredientFactory">
+              <point x="0.0" y="-80.5" />
+              <point x="122.0" y="186.0" />
+              <point x="193.0" y="186.0" />
+              <point x="-61.0" y="80.5" />
+            </edge>
+            <edge source="LectAbstractFactory.ClamPizza" target="LectAbstractFactory.Pizza">
+              <point x="0.0" y="-25.5" />
+              <point x="805.5" y="213.0" />
+              <point x="868.125" y="213.0" />
+              <point x="-24.875" y="91.5" />
+            </edge>
+            <edge source="LectAbstractFactory.MozzarellaCheese" target="LectAbstractFactory.Cheese">
+              <point x="0.0" y="-25.5" />
+              <point x="84.5" y="919.0" />
+              <point x="217.16666666666666" y="919.0" />
+              <point x="-56.33333333333334" y="25.5" />
+            </edge>
+            <edge source="LectAbstractFactory.ThinCrustDough" target="LectAbstractFactory.Dough">
+              <point x="0.0" y="-25.5" />
+              <point x="84.5" y="1116.0" />
+              <point x="136.75" y="1116.0" />
+              <point x="-42.25" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7895902547065338" x="645.0" y="322.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Cabinet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Slot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/SlotMachineApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/AbstractFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>AbstractFactory</OriginalElement>
+          <nodes>
+            <node x="237.5" y="0.0">AbstractFactory.Slot</node>
+            <node x="0.0" y="388.0">AbstractFactory.ProgressiveSlot</node>
+            <node x="0.0" y="849.0">AbstractFactory.LCD</node>
+            <node x="117.0" y="507.0">AbstractFactory.SlotComponentFactory</node>
+            <node x="493.0" y="630.0">AbstractFactory.NVSlotFactory</node>
+            <node x="712.0" y="630.0">AbstractFactory.NJSlotFactory</node>
+            <node x="602.0" y="507.0">AbstractFactory.SlotFactory</node>
+            <node x="0.0" y="630.0">AbstractFactory.NJSlotComponentFactory</node>
+            <node x="806.0" y="748.0">AbstractFactory.SlotMachineApp</node>
+            <node x="189.0" y="849.0">AbstractFactory.Reels</node>
+            <node x="403.0" y="849.0">AbstractFactory.largeCabinet</node>
+            <node x="256.0" y="945.0">AbstractFactory.WSSlotFactory</node>
+            <node x="592.0" y="849.0">AbstractFactory.smallCabinet</node>
+            <node x="497.5" y="748.0">AbstractFactory.Cabinet</node>
+            <node x="234.0" y="630.0">AbstractFactory.NVSlotComponentFactory</node>
+            <node x="0.0" y="945.0">AbstractFactory.WSSlotComponentFactory</node>
+            <node x="94.5" y="748.0">AbstractFactory.Display</node>
+            <node x="350.0" y="388.0">AbstractFactory.BonusSlot</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="AbstractFactory.largeCabinet" target="AbstractFactory.Cabinet">
+              <point x="0.0" y="-25.5" />
+              <point x="487.5" y="824.0" />
+              <point x="539.75" y="824.0" />
+              <point x="-42.25" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.BonusSlot" target="AbstractFactory.Slot">
+              <point x="0.0" y="-37.0" />
+              <point x="515.0" y="363.0" />
+              <point x="391.25" y="363.0" />
+              <point x="51.25" y="169.0" />
+            </edge>
+            <edge source="AbstractFactory.Reels" target="AbstractFactory.Display">
+              <point x="0.0" y="-25.5" />
+              <point x="273.5" y="824.0" />
+              <point x="221.25" y="824.0" />
+              <point x="42.25" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.LCD" target="AbstractFactory.Display">
+              <point x="0.0" y="-25.5" />
+              <point x="84.5" y="824.0" />
+              <point x="136.75" y="824.0" />
+              <point x="-42.25" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.NJSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+              <point x="0.0" y="-36.5" />
+              <point x="107.0" y="605.0" />
+              <point x="170.5" y="605.0" />
+              <point x="-53.5" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.ProgressiveSlot" target="AbstractFactory.Slot">
+              <point x="0.0" y="-37.0" />
+              <point x="165.0" y="363.0" />
+              <point x="288.75" y="363.0" />
+              <point x="-51.25" y="169.0" />
+            </edge>
+            <edge source="AbstractFactory.NVSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+              <point x="0.0" y="-36.5" />
+              <point x="341.0" y="605.0" />
+              <point x="277.5" y="605.0" />
+              <point x="53.5" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.NJSlotFactory" target="AbstractFactory.SlotFactory">
+              <point x="0.0" y="-25.5" />
+              <point x="811.5" y="605.0" />
+              <point x="752.0" y="605.0" />
+              <point x="50.0" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.NVSlotFactory" target="AbstractFactory.SlotFactory">
+              <point x="0.0" y="-25.5" />
+              <point x="592.5" y="605.0" />
+              <point x="652.0" y="605.0" />
+              <point x="-50.0" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.smallCabinet" target="AbstractFactory.Cabinet">
+              <point x="0.0" y="-25.5" />
+              <point x="676.5" y="824.0" />
+              <point x="624.25" y="824.0" />
+              <point x="42.25" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8991172761664565" x="425.4333800841514" y="487.7300140252454" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
