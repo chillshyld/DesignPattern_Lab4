@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ddc02c5-3c77-4e0b-884e-7d7a2f33aa14" name="Default" comment="" />
+    <list default="true" id="1ddc02c5-3c77-4e0b-884e-7d7a2f33aa14" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/Bills.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/CRT.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/Coins.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/Payment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/TicketinTicketout.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/mediumCabinet.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/WSSlotComponentFactory.java" afterPath="$PROJECT_DIR$/src/AbstractFactory/WSSlotComponentFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java" afterPath="$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,89 +34,129 @@
                     <OriginalElement>AbstractFactory</OriginalElement>
                     <nodes>
                       <node x="237.5" y="0.0">AbstractFactory.Slot</node>
-                      <node x="0.0" y="388.0">AbstractFactory.ProgressiveSlot</node>
-                      <node x="0.0" y="849.0">AbstractFactory.LCD</node>
-                      <node x="117.0" y="507.0">AbstractFactory.SlotComponentFactory</node>
-                      <node x="493.0" y="630.0">AbstractFactory.NVSlotFactory</node>
-                      <node x="712.0" y="630.0">AbstractFactory.NJSlotFactory</node>
-                      <node x="602.0" y="507.0">AbstractFactory.SlotFactory</node>
-                      <node x="0.0" y="630.0">AbstractFactory.NJSlotComponentFactory</node>
-                      <node x="806.0" y="748.0">AbstractFactory.SlotMachineApp</node>
-                      <node x="189.0" y="849.0">AbstractFactory.Reels</node>
-                      <node x="403.0" y="849.0">AbstractFactory.largeCabinet</node>
-                      <node x="256.0" y="945.0">AbstractFactory.WSSlotFactory</node>
-                      <node x="592.0" y="849.0">AbstractFactory.smallCabinet</node>
-                      <node x="497.5" y="748.0">AbstractFactory.Cabinet</node>
-                      <node x="234.0" y="630.0">AbstractFactory.NVSlotComponentFactory</node>
-                      <node x="0.0" y="945.0">AbstractFactory.WSSlotComponentFactory</node>
-                      <node x="94.5" y="748.0">AbstractFactory.Display</node>
-                      <node x="350.0" y="388.0">AbstractFactory.BonusSlot</node>
+                      <node x="0.0" y="1068.0">AbstractFactory.Bills</node>
+                      <node x="350.0" y="388.0">AbstractFactory.ProgressiveSlot</node>
+                      <node x="871.0" y="849.0">AbstractFactory.LCD</node>
+                      <node x="592.0" y="1068.0">AbstractFactory.mediumCabinet</node>
+                      <node x="234.0" y="507.0">AbstractFactory.SlotComponentFactory</node>
+                      <node x="189.0" y="1068.0">AbstractFactory.Coins</node>
+                      <node x="219.0" y="871.0">AbstractFactory.NVSlotFactory</node>
+                      <node x="0.0" y="871.0">AbstractFactory.NJSlotFactory</node>
+                      <node x="218.5" y="748.0">AbstractFactory.SlotFactory</node>
+                      <node x="234.0" y="630.0">AbstractFactory.NJSlotComponentFactory</node>
+                      <node x="0.0" y="1164.0">AbstractFactory.SlotMachineApp</node>
+                      <node x="682.0" y="849.0">AbstractFactory.Reels</node>
+                      <node x="781.0" y="1068.0">AbstractFactory.largeCabinet</node>
+                      <node x="438.0" y="871.0">AbstractFactory.WSSlotFactory</node>
+                      <node x="970.0" y="1068.0">AbstractFactory.smallCabinet</node>
+                      <node x="781.0" y="967.0">AbstractFactory.Cabinet</node>
+                      <node x="468.0" y="630.0">AbstractFactory.NVSlotComponentFactory</node>
+                      <node x="378.0" y="1068.0">AbstractFactory.TicketinTicketout</node>
+                      <node x="189.0" y="967.0">AbstractFactory.Payment</node>
+                      <node x="0.0" y="630.0">AbstractFactory.WSSlotComponentFactory</node>
+                      <node x="1060.0" y="849.0">AbstractFactory.CRT</node>
+                      <node x="871.0" y="748.0">AbstractFactory.Display</node>
+                      <node x="0.0" y="388.0">AbstractFactory.BonusSlot</node>
                     </nodes>
                     <notes />
                     <edges>
-                      <edge source="AbstractFactory.largeCabinet" target="AbstractFactory.Cabinet">
+                      <edge source="AbstractFactory.mediumCabinet" target="AbstractFactory.Cabinet">
                         <point x="0.0" y="-25.5" />
-                        <point x="487.5" y="824.0" />
-                        <point x="539.75" y="824.0" />
-                        <point x="-42.25" y="25.5" />
+                        <point x="676.5" y="1043.0" />
+                        <point x="809.1666666666666" y="1043.0" />
+                        <point x="-56.33333333333337" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.CRT" target="AbstractFactory.Display">
+                        <point x="0.0" y="-25.5" />
+                        <point x="1144.5" y="824.0" />
+                        <point x="1011.8333333333334" y="824.0" />
+                        <point x="56.33333333333337" y="25.5" />
                       </edge>
                       <edge source="AbstractFactory.BonusSlot" target="AbstractFactory.Slot">
-                        <point x="0.0" y="-37.0" />
-                        <point x="515.0" y="363.0" />
-                        <point x="391.25" y="363.0" />
-                        <point x="51.25" y="169.0" />
-                      </edge>
-                      <edge source="AbstractFactory.Reels" target="AbstractFactory.Display">
-                        <point x="0.0" y="-25.5" />
-                        <point x="273.5" y="824.0" />
-                        <point x="221.25" y="824.0" />
-                        <point x="42.25" y="25.5" />
-                      </edge>
-                      <edge source="AbstractFactory.LCD" target="AbstractFactory.Display">
-                        <point x="0.0" y="-25.5" />
-                        <point x="84.5" y="824.0" />
-                        <point x="136.75" y="824.0" />
-                        <point x="-42.25" y="25.5" />
-                      </edge>
-                      <edge source="AbstractFactory.NJSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
-                        <point x="0.0" y="-36.5" />
-                        <point x="107.0" y="605.0" />
-                        <point x="170.5" y="605.0" />
-                        <point x="-53.5" y="36.5" />
-                      </edge>
-                      <edge source="AbstractFactory.ProgressiveSlot" target="AbstractFactory.Slot">
                         <point x="0.0" y="-37.0" />
                         <point x="165.0" y="363.0" />
                         <point x="288.75" y="363.0" />
                         <point x="-51.25" y="169.0" />
                       </edge>
-                      <edge source="AbstractFactory.NVSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
-                        <point x="0.0" y="-36.5" />
-                        <point x="341.0" y="605.0" />
-                        <point x="277.5" y="605.0" />
-                        <point x="53.5" y="36.5" />
+                      <edge source="AbstractFactory.WSSlotFactory" target="AbstractFactory.SlotFactory">
+                        <point x="0.0" y="-25.5" />
+                        <point x="537.5" y="846.0" />
+                        <point x="385.1666666666667" y="846.0" />
+                        <point x="66.66666666666669" y="36.5" />
                       </edge>
                       <edge source="AbstractFactory.NJSlotFactory" target="AbstractFactory.SlotFactory">
                         <point x="0.0" y="-25.5" />
-                        <point x="811.5" y="605.0" />
-                        <point x="752.0" y="605.0" />
-                        <point x="50.0" y="36.5" />
+                        <point x="99.5" y="846.0" />
+                        <point x="251.83333333333331" y="846.0" />
+                        <point x="-66.66666666666669" y="36.5" />
+                      </edge>
+                      <edge source="AbstractFactory.TicketinTicketout" target="AbstractFactory.Payment">
+                        <point x="0.0" y="-25.5" />
+                        <point x="462.5" y="1043.0" />
+                        <point x="329.83333333333337" y="1043.0" />
+                        <point x="56.33333333333337" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.Coins" target="AbstractFactory.Payment">
+                        <point x="0.0" y="-25.5" />
+                        <point x="0.0" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.largeCabinet" target="AbstractFactory.Cabinet">
+                        <point x="0.0" y="-25.5" />
+                        <point x="0.0" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.Reels" target="AbstractFactory.Display">
+                        <point x="0.0" y="-25.5" />
+                        <point x="766.5" y="824.0" />
+                        <point x="899.1666666666666" y="824.0" />
+                        <point x="-56.33333333333337" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.WSSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+                        <point x="0.0" y="-36.5" />
+                        <point x="107.0" y="605.0" />
+                        <point x="269.6666666666667" y="605.0" />
+                        <point x="-71.33333333333331" y="36.5" />
+                      </edge>
+                      <edge source="AbstractFactory.LCD" target="AbstractFactory.Display">
+                        <point x="0.0" y="-25.5" />
+                        <point x="0.0" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.Bills" target="AbstractFactory.Payment">
+                        <point x="0.0" y="-25.5" />
+                        <point x="84.5" y="1043.0" />
+                        <point x="217.16666666666666" y="1043.0" />
+                        <point x="-56.33333333333334" y="25.5" />
+                      </edge>
+                      <edge source="AbstractFactory.NJSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+                        <point x="0.0" y="-36.5" />
+                        <point x="0.0" y="36.5" />
+                      </edge>
+                      <edge source="AbstractFactory.ProgressiveSlot" target="AbstractFactory.Slot">
+                        <point x="0.0" y="-37.0" />
+                        <point x="515.0" y="363.0" />
+                        <point x="391.25" y="363.0" />
+                        <point x="51.25" y="169.0" />
+                      </edge>
+                      <edge source="AbstractFactory.NVSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+                        <point x="0.0" y="-36.5" />
+                        <point x="575.0" y="605.0" />
+                        <point x="412.3333333333333" y="605.0" />
+                        <point x="71.33333333333331" y="36.5" />
                       </edge>
                       <edge source="AbstractFactory.NVSlotFactory" target="AbstractFactory.SlotFactory">
                         <point x="0.0" y="-25.5" />
-                        <point x="592.5" y="605.0" />
-                        <point x="652.0" y="605.0" />
-                        <point x="-50.0" y="36.5" />
+                        <point x="0.0" y="36.5" />
                       </edge>
                       <edge source="AbstractFactory.smallCabinet" target="AbstractFactory.Cabinet">
                         <point x="0.0" y="-25.5" />
-                        <point x="676.5" y="824.0" />
-                        <point x="624.25" y="824.0" />
-                        <point x="42.25" y="25.5" />
+                        <point x="1054.5" y="1043.0" />
+                        <point x="921.8333333333334" y="1043.0" />
+                        <point x="56.33333333333337" y="25.5" />
                       </edge>
                     </edges>
-                    <settings layout="Hierarchic Group" zoom="0.8991172761664565" x="425.4333800841514" y="487.7300140252454" />
-                    <SelectedNodes />
+                    <settings layout="Hierarchic Group" zoom="0.8176490030200034" x="533.0342234628723" y="389.24351232996435" />
+                    <SelectedNodes>
+                      <node>AbstractFactory.SlotMachineApp</node>
+                    </SelectedNodes>
                     <Categories>
                       <Category>Fields</Category>
                       <Category>Methods</Category>
@@ -123,31 +174,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NJSlotFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotFactory.java">
+      <file leaf-file-name="SlotFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/SlotFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NJSlotComponentFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotComponentFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SlotMachineApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/SlotMachineApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -156,8 +187,61 @@
       <file leaf-file-name="WSSlotFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WSSlotComponentFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WSSlotComponentFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NJSlotFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NVSlotComponentFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NVSlotComponentFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BonusSlot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BonusSlot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlotMachineApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/SlotMachineApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -173,26 +257,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cabinet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Cabinet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Display.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -202,6 +266,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -215,7 +282,15 @@
         <option value="$PROJECT_DIR$/src/SingletonFactory/Bar.java" />
         <option value="$PROJECT_DIR$/src/LectLogger/Logger.java" />
         <option value="$PROJECT_DIR$/src/LectAbstractFactory/BlackOlives.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/mediumCabinet.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/CRT.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/Payment.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/TicketinTicketout.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/Coins.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/Bills.java" />
         <option value="$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/WSSlotComponentFactory.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/NJSlotFactory.java" />
       </list>
     </option>
   </component>
@@ -231,6 +306,7 @@
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -399,16 +475,15 @@
       <workItem from="1517445974254" duration="29000" />
       <workItem from="1517457820371" duration="254000" />
       <workItem from="1517473954651" duration="670000" />
-      <workItem from="1517853867811" duration="3630000" />
+      <workItem from="1517853867811" duration="8100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5888000" />
+    <option name="totallyTimeSpent" value="10358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="30" width="1400" height="837" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -417,10 +492,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -542,14 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BonusSlot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,10 +856,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/mediumCabinet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/smallCabinet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/CRT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/TicketinTicketout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Bills.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Coins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/LCD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Reels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/SlotComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -805,18 +953,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Slot.java">
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/SlotFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WSSlotFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WSSlotComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/AbstractFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>AbstractFactory</OriginalElement>
+          <nodes>
+            <node x="237.5" y="0.0">AbstractFactory.Slot</node>
+            <node x="0.0" y="1068.0">AbstractFactory.Bills</node>
+            <node x="350.0" y="388.0">AbstractFactory.ProgressiveSlot</node>
+            <node x="871.0" y="849.0">AbstractFactory.LCD</node>
+            <node x="592.0" y="1068.0">AbstractFactory.mediumCabinet</node>
+            <node x="234.0" y="507.0">AbstractFactory.SlotComponentFactory</node>
+            <node x="189.0" y="1068.0">AbstractFactory.Coins</node>
+            <node x="219.0" y="871.0">AbstractFactory.NVSlotFactory</node>
+            <node x="0.0" y="871.0">AbstractFactory.NJSlotFactory</node>
+            <node x="218.5" y="748.0">AbstractFactory.SlotFactory</node>
+            <node x="234.0" y="630.0">AbstractFactory.NJSlotComponentFactory</node>
+            <node x="0.0" y="1164.0">AbstractFactory.SlotMachineApp</node>
+            <node x="682.0" y="849.0">AbstractFactory.Reels</node>
+            <node x="781.0" y="1068.0">AbstractFactory.largeCabinet</node>
+            <node x="438.0" y="871.0">AbstractFactory.WSSlotFactory</node>
+            <node x="970.0" y="1068.0">AbstractFactory.smallCabinet</node>
+            <node x="781.0" y="967.0">AbstractFactory.Cabinet</node>
+            <node x="468.0" y="630.0">AbstractFactory.NVSlotComponentFactory</node>
+            <node x="378.0" y="1068.0">AbstractFactory.TicketinTicketout</node>
+            <node x="189.0" y="967.0">AbstractFactory.Payment</node>
+            <node x="0.0" y="630.0">AbstractFactory.WSSlotComponentFactory</node>
+            <node x="1060.0" y="849.0">AbstractFactory.CRT</node>
+            <node x="871.0" y="748.0">AbstractFactory.Display</node>
+            <node x="0.0" y="388.0">AbstractFactory.BonusSlot</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="AbstractFactory.mediumCabinet" target="AbstractFactory.Cabinet">
+              <point x="0.0" y="-25.5" />
+              <point x="676.5" y="1043.0" />
+              <point x="809.1666666666666" y="1043.0" />
+              <point x="-56.33333333333337" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.CRT" target="AbstractFactory.Display">
+              <point x="0.0" y="-25.5" />
+              <point x="1144.5" y="824.0" />
+              <point x="1011.8333333333334" y="824.0" />
+              <point x="56.33333333333337" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.BonusSlot" target="AbstractFactory.Slot">
+              <point x="0.0" y="-37.0" />
+              <point x="165.0" y="363.0" />
+              <point x="288.75" y="363.0" />
+              <point x="-51.25" y="169.0" />
+            </edge>
+            <edge source="AbstractFactory.WSSlotFactory" target="AbstractFactory.SlotFactory">
+              <point x="0.0" y="-25.5" />
+              <point x="537.5" y="846.0" />
+              <point x="385.1666666666667" y="846.0" />
+              <point x="66.66666666666669" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.NJSlotFactory" target="AbstractFactory.SlotFactory">
+              <point x="0.0" y="-25.5" />
+              <point x="99.5" y="846.0" />
+              <point x="251.83333333333331" y="846.0" />
+              <point x="-66.66666666666669" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.TicketinTicketout" target="AbstractFactory.Payment">
+              <point x="0.0" y="-25.5" />
+              <point x="462.5" y="1043.0" />
+              <point x="329.83333333333337" y="1043.0" />
+              <point x="56.33333333333337" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.Coins" target="AbstractFactory.Payment">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.largeCabinet" target="AbstractFactory.Cabinet">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.Reels" target="AbstractFactory.Display">
+              <point x="0.0" y="-25.5" />
+              <point x="766.5" y="824.0" />
+              <point x="899.1666666666666" y="824.0" />
+              <point x="-56.33333333333337" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.WSSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+              <point x="0.0" y="-36.5" />
+              <point x="107.0" y="605.0" />
+              <point x="269.6666666666667" y="605.0" />
+              <point x="-71.33333333333331" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.LCD" target="AbstractFactory.Display">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.Bills" target="AbstractFactory.Payment">
+              <point x="0.0" y="-25.5" />
+              <point x="84.5" y="1043.0" />
+              <point x="217.16666666666666" y="1043.0" />
+              <point x="-56.33333333333334" y="25.5" />
+            </edge>
+            <edge source="AbstractFactory.NJSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.ProgressiveSlot" target="AbstractFactory.Slot">
+              <point x="0.0" y="-37.0" />
+              <point x="515.0" y="363.0" />
+              <point x="391.25" y="363.0" />
+              <point x="51.25" y="169.0" />
+            </edge>
+            <edge source="AbstractFactory.NVSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
+              <point x="0.0" y="-36.5" />
+              <point x="575.0" y="605.0" />
+              <point x="412.3333333333333" y="605.0" />
+              <point x="71.33333333333331" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.NVSlotFactory" target="AbstractFactory.SlotFactory">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="AbstractFactory.smallCabinet" target="AbstractFactory.Cabinet">
+              <point x="0.0" y="-25.5" />
+              <point x="1054.5" y="1043.0" />
+              <point x="921.8333333333334" y="1043.0" />
+              <point x="56.33333333333337" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8176490030200034" x="533.0342234628723" y="389.24351232996435" />
+          <SelectedNodes>
+            <node>AbstractFactory.SlotMachineApp</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Slot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -829,102 +1135,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/AbstractFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>AbstractFactory</OriginalElement>
-          <nodes>
-            <node x="237.5" y="0.0">AbstractFactory.Slot</node>
-            <node x="0.0" y="388.0">AbstractFactory.ProgressiveSlot</node>
-            <node x="0.0" y="849.0">AbstractFactory.LCD</node>
-            <node x="117.0" y="507.0">AbstractFactory.SlotComponentFactory</node>
-            <node x="493.0" y="630.0">AbstractFactory.NVSlotFactory</node>
-            <node x="712.0" y="630.0">AbstractFactory.NJSlotFactory</node>
-            <node x="602.0" y="507.0">AbstractFactory.SlotFactory</node>
-            <node x="0.0" y="630.0">AbstractFactory.NJSlotComponentFactory</node>
-            <node x="806.0" y="748.0">AbstractFactory.SlotMachineApp</node>
-            <node x="189.0" y="849.0">AbstractFactory.Reels</node>
-            <node x="403.0" y="849.0">AbstractFactory.largeCabinet</node>
-            <node x="256.0" y="945.0">AbstractFactory.WSSlotFactory</node>
-            <node x="592.0" y="849.0">AbstractFactory.smallCabinet</node>
-            <node x="497.5" y="748.0">AbstractFactory.Cabinet</node>
-            <node x="234.0" y="630.0">AbstractFactory.NVSlotComponentFactory</node>
-            <node x="0.0" y="945.0">AbstractFactory.WSSlotComponentFactory</node>
-            <node x="94.5" y="748.0">AbstractFactory.Display</node>
-            <node x="350.0" y="388.0">AbstractFactory.BonusSlot</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="AbstractFactory.largeCabinet" target="AbstractFactory.Cabinet">
-              <point x="0.0" y="-25.5" />
-              <point x="487.5" y="824.0" />
-              <point x="539.75" y="824.0" />
-              <point x="-42.25" y="25.5" />
-            </edge>
-            <edge source="AbstractFactory.BonusSlot" target="AbstractFactory.Slot">
-              <point x="0.0" y="-37.0" />
-              <point x="515.0" y="363.0" />
-              <point x="391.25" y="363.0" />
-              <point x="51.25" y="169.0" />
-            </edge>
-            <edge source="AbstractFactory.Reels" target="AbstractFactory.Display">
-              <point x="0.0" y="-25.5" />
-              <point x="273.5" y="824.0" />
-              <point x="221.25" y="824.0" />
-              <point x="42.25" y="25.5" />
-            </edge>
-            <edge source="AbstractFactory.LCD" target="AbstractFactory.Display">
-              <point x="0.0" y="-25.5" />
-              <point x="84.5" y="824.0" />
-              <point x="136.75" y="824.0" />
-              <point x="-42.25" y="25.5" />
-            </edge>
-            <edge source="AbstractFactory.NJSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
-              <point x="0.0" y="-36.5" />
-              <point x="107.0" y="605.0" />
-              <point x="170.5" y="605.0" />
-              <point x="-53.5" y="36.5" />
-            </edge>
-            <edge source="AbstractFactory.ProgressiveSlot" target="AbstractFactory.Slot">
-              <point x="0.0" y="-37.0" />
-              <point x="165.0" y="363.0" />
-              <point x="288.75" y="363.0" />
-              <point x="-51.25" y="169.0" />
-            </edge>
-            <edge source="AbstractFactory.NVSlotComponentFactory" target="AbstractFactory.SlotComponentFactory">
-              <point x="0.0" y="-36.5" />
-              <point x="341.0" y="605.0" />
-              <point x="277.5" y="605.0" />
-              <point x="53.5" y="36.5" />
-            </edge>
-            <edge source="AbstractFactory.NJSlotFactory" target="AbstractFactory.SlotFactory">
-              <point x="0.0" y="-25.5" />
-              <point x="811.5" y="605.0" />
-              <point x="752.0" y="605.0" />
-              <point x="50.0" y="36.5" />
-            </edge>
-            <edge source="AbstractFactory.NVSlotFactory" target="AbstractFactory.SlotFactory">
-              <point x="0.0" y="-25.5" />
-              <point x="592.5" y="605.0" />
-              <point x="652.0" y="605.0" />
-              <point x="-50.0" y="36.5" />
-            </edge>
-            <edge source="AbstractFactory.smallCabinet" target="AbstractFactory.Cabinet">
-              <point x="0.0" y="-25.5" />
-              <point x="676.5" y="824.0" />
-              <point x="624.25" y="824.0" />
-              <point x="42.25" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8991172761664565" x="425.4333800841514" y="487.7300140252454" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BonusSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NVSlotComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/NJSlotFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
