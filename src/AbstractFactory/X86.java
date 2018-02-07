@@ -9,6 +9,8 @@ package lab4_abstractFactory;
  *
  * @author monradajuycharoen
  */
-public class X86 {
-    
+public class X86 implements GPU {
+    public String toString() {
+        return "New School X86";
+    }
 }

@@ -9,6 +9,8 @@ package lab4_abstractFactory;
  *
  * @author monradajuycharoen
  */
-public class X77 {
-    
+public class X77 implements GPU {
+    public String toString() {
+        return "New School X77";
+    }
 }

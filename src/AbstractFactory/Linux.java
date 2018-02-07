@@ -9,6 +9,8 @@ package lab4_abstractFactory;
  *
  * @author monradajuycharoen
  */
-public class Linux {
-    
+public class Linux implements OS {
+    public String toString() {
+        return "New School Linux";
+    }
 }

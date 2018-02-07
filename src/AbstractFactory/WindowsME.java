@@ -9,6 +9,8 @@ package lab4_abstractFactory;
  *
  * @author monradajuycharoen
  */
-public class WindowsME {
-    
+public class WindowsME implements OS {
+    public String toString() {
+        return "New School Window ME";
+    }
 }

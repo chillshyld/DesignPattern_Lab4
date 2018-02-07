@@ -9,6 +9,8 @@ package lab4_abstractFactory;
  *
  * @author monradajuycharoen
  */
-public class ARM {
-    
+public class ARM implements GPU {
+    public String toString() {
+        return "New School ARM";
+    }
 }

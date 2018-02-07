@@ -9,6 +9,8 @@ package lab4_abstractFactory;
  *
  * @author monradajuycharoen
  */
-public class Android {
-    
+public class Android implements OS {
+    public String toString() {
+        return "New School Andriod";
+    }
 }

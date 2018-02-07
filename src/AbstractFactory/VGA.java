@@ -9,6 +9,11 @@ package lab4_abstractFactory;
  *
  * @author monradajuycharoen
  */
-public class VGA {
+public class VGA implements Display {
+
+    public String toString() {
+        return "New School VGA";
+    }
     
 }
+

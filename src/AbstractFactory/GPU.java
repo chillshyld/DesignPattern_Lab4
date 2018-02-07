@@ -10,5 +10,7 @@ package lab4_abstractFactory;
  * @author monradajuycharoen
  */
 public interface GPU {
+
+    public String toString();
     
 }

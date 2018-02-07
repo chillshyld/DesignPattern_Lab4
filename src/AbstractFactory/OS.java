@@ -10,5 +10,5 @@ package lab4_abstractFactory;
  * @author monradajuycharoen
  */
 public interface OS {
-    
+    public String toString();
 }

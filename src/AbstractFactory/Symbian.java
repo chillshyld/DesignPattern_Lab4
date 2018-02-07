@@ -9,6 +9,8 @@ package lab4_abstractFactory;
  *
  * @author monradajuycharoen
  */
-public class Symbian {
-    
+public class Symbian implements OS {
+    public String toString() {
+        return "New School Symbian";
+    }
 }
