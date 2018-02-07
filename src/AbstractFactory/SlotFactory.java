@@ -1,4 +1,4 @@
-package AbstractFactory;
+package lab4_abstractFactory;
 
 public abstract class SlotFactory {
 

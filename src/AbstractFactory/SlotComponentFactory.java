@@ -1,4 +1,4 @@
-package AbstractFactory;
+package lab4_abstractFactory;
 
 public interface SlotComponentFactory {
 	public Cabinet createCabinet();

@@ -1,4 +1,4 @@
-package AbstractFactory;
+package lab4_abstractFactory;
 
 public class WSSlotFactory extends SlotFactory {
     protected Slot makeSlot(String item) {

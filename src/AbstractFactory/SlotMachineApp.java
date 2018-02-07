@@ -1,4 +1,4 @@
-package AbstractFactory;
+package lab4_abstractFactory;
 
 public class SlotMachineApp {
 	public static void main(String[] args) {
